@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\hp01\AppData\Local\Temp\RSP5984.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\第五次\1725111037 元雨暄\1.cpp"
+]
+Creating command line "cl.exe @C:\Users\hp01\AppData\Local\Temp\RSP5984.tmp" 
+<h3>Output Window</h3>
+Compiling...
+1.cpp
+H:\第五次\1725111037 元雨暄\1.cpp(193) : error C2784: 'class std::reverse_iterator<_RI,_Ty,_Rt,_Pt,_D> __cdecl std::operator +(_D,const class std::reverse_iterator<_RI,_Ty,_Rt,_Pt,_D> &)' : could not deduce template argument for '' from 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >'
+H:\第五次\1725111037 元雨暄\1.cpp(193) : error C2676: binary '+' : 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' does not define this operator or a conversion to a type acceptable to the predefined operator
+H:\第五次\1725111037 元雨暄\1.cpp(199) : error C2679: binary '<<' : no operator defined which takes a right-hand operand of type 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' (or there is no acceptable conversion)
+H:\第五次\1725111037 元雨暄\1.cpp(201) : error C2679: binary '<<' : no operator defined which takes a right-hand operand of type 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' (or there is no acceptable conversion)
+H:\第五次\1725111037 元雨暄\1.cpp(282) : error C2679: binary '<<' : no operator defined which takes a right-hand operand of type 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' (or there is no acceptable conversion)
+H:\第五次\1725111037 元雨暄\1.cpp(283) : error C2679: binary '<<' : no operator defined which takes a right-hand operand of type 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' (or there is no acceptable conversion)
+H:\第五次\1725111037 元雨暄\1.cpp(289) : error C2679: binary '<<' : no operator defined which takes a right-hand operand of type 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' (or there is no acceptable conversion)
+H:\第五次\1725111037 元雨暄\1.cpp(290) : error C2679: binary '<<' : no operator defined which takes a right-hand operand of type 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >' (or there is no acceptable conversion)
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+1.obj - 8 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
