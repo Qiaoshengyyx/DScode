@@ -1,3 +1,8 @@
+---
+permalink: /mission1/exp1.html
+layout: default
+title: contents of mission 1 
+---
 # 实验一
 ## 题目
 顺序表及其应用——顺序表的基本操作及有序表的合并
