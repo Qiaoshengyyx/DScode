@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-
-# 数据结构作业
+大学数据结构课程作业
+# 实验
 * [实验一](./mission1/exp1.md)
 * [实验二](./mission2/exp2.md)
 * [实验三](./mission3/exp3.md)
